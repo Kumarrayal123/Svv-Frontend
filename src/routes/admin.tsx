@@ -1,5 +1,5 @@
 import { useState, useEffect, type ChangeEvent, type FormEvent } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { Link } from "@/components/Link";
 import {
   Calendar,
   Building2,
@@ -37,16 +37,6 @@ import {
   loginApi,
 } from "@/lib/api";
 
-export const Route = createFileRoute("/admin")({
-  head: () => ({
-    meta: [
-      {
-        title: "Admin Portal — S.V.V. Clinic",
-      },
-    ],
-  }),
-  component: AdminPage,
-});
 
 type TabType =
   | "appointments"

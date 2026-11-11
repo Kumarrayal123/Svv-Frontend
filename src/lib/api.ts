@@ -1,5 +1,5 @@
 const API_BASE_URL =
-  import.meta.env["VITE_API_BASE_URL"] || "http://localhost:5000/api";
+  import.meta.env["VITE_API_BASE_URL"] || "http://62.72.29.27:5326/api";
 
 export const TIMELY_DOCTORS_API_URL = "https://api.timelyhealth.in/api/doctors/getalldoctors";
 
